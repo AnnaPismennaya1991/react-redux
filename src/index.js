@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import SearchBar from './components/search_bar'; //компонент поиска
+import SearchBar from './components/search_bar'; //компонент ввода-поиска
 
-const API_KEY = 'AIzaSyCOrCVYNL_Pv8TOrZN1rRr1wkDr9rxiEms';
+const API_KEY = 'AIzaSyCOrCVYNL_Pv8TOrZN1rRr1wkDr9rxiEms'; //youtube
 
 //create new component, this component should produce some html
 
