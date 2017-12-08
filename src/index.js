@@ -14,7 +14,7 @@ class App extends Component { //functional base component
 
         this.state = { videos: [] };
 
-        YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
+        YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => { //term: 'surfboards' - тема видюшек
             this.setState({ videos });
             //this.setState({ videos: videos });
         });
